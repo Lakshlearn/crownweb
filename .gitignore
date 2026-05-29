@@ -1,0 +1,32 @@
+# Node dependencies
+node_modules/
+
+# Composer dependencies
+/vendor/
+
+# Environment files
+.env
+.env.*
+
+# Logs and database
+*.log
+*.sql
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+
+# PHPStorm project files
+*.iml
+
+# Build artifacts
+dist/
+build/
+
+# Mac and Windows files
+._*

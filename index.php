@@ -125,14 +125,15 @@
         <div class="about-content-top">
 
             <h2>
-                WORLD CLASS <br>
-                TAILORING QUALITY
+                EXCEPTIONAL CRAFT <br>
+                TIMELESS STONE
             </h2>
 
             <div class="about-content-text">
                 <p>
-                    With over a decade of experience, we have a proven track record of creating innovative and sustainable spaces 
-                    that enhance the lives of our clients. Our approach to design is centered around collaboration and communication.
+                    Backed by deep industry experience, we transform semi-precious stones into statement pieces that 
+                    define luxury. From concept to execution, our process is rooted in collaboration, attention to 
+                    detail, and a passion for elevating everyday spaces into extraordinary environments.
                 </p>
                 
                 <div class="about-links">
@@ -277,11 +278,11 @@
             </div>
 
             <div class="process-title">
-                BOOK YOUR APPOINTMENT
+                UNDERSTANDING & REQUIREMENT MAPPING
             </div>
 
             <div class="process-description">
-                Book an in-person or virtual appointment with our Design Team.
+                We begin by understanding your vision, space, and functional needs to define a personalized design direction.
             </div>
 
         </div>
@@ -298,13 +299,11 @@
             </div>
 
             <div class="process-title">
-                GET MEASURED
+                SITE MEASUREMENT
             </div>
 
             <div class="process-description">
-                We collect 45+ measurements that are a mix of your physical dimensions,
-                the desired dimensions of your custom suit, as well as a posture and fit
-                analysis respectively.
+                Precise on-site measurements ensure accuracy and seamless integration with your space.
             </div>
 
         </div>
@@ -321,18 +320,15 @@
             </div>
 
             <div class="process-title">
-                CHOOSE YOUR FABRIC, LINING & TRIM
+                MATERIAL, COLOUR & FINISH SELECTION
             </div>
 
             <div class="process-description">
-                Choose from a rich selection of over 1,000 luxury materials,
-                linings, and buttons.
+                Curated mood boards guide the selection of colours, textures, and finishes to achieve 
+                depth and luxury.
             </div>
 
         </div>
-
-
-
 
 
         <!-- ITEM 4 -->
@@ -343,13 +339,64 @@
             </div>
 
             <div class="process-title">
-                FIRST FITTING
+                3D DESIGN & APPROVAL
             </div>
 
             <div class="process-description">
-                It is time for the “big reveal” approximately 8-10 weeks later.
-                We will perform a fit check of your garments and prepare your attire
-                for its finishing touches.
+                We present detailed drawings and 3D visualizations for your approval before moving ahead.
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 5 -->
+        <div class="process-item">
+
+            <div class="process-number">
+                05
+            </div>
+
+            <div class="process-title">
+                PRODUCTION & CRAFTING
+            </div>
+
+            <div class="process-description">
+                Expert craftsmanship and advanced techniques bring your design to life with exceptional quality.
+            </div>
+
+        </div>
+
+
+        <!-- ITEM 6 -->
+        <div class="process-item">
+
+            <div class="process-number">
+                06
+            </div>
+
+            <div class="process-title">
+                QUALITY CHECK & PRE-INSTALLATION
+            </div>
+
+            <div class="process-description">
+                Each element undergoes strict quality checks to ensure perfection before dispatch.
+            </div>
+
+        </div>
+
+        <!-- ITEM 7 -->
+        <div class="process-item">
+
+            <div class="process-number">
+                07
+            </div>
+
+            <div class="process-title">
+                INSTALLATION & FINAL STYLING
+            </div>
+
+            <div class="process-description">
+                We execute precise installation and finishing touches to deliver a flawless space.
             </div>
 
         </div>
@@ -530,13 +577,16 @@
         <div class="about-content">
 
             <h2>
-                A CUSTOM SHOP LIKE <br>
-                NO OTHER
+                WHERE NATURE BECOMES <br>
+                LUXURY
             </h2>
 
             <div class="about-content-text">
                 <p>
-                    Embark on a captivating exploration down our exclusive alley off the renowned Great Jones Street. Uncover a haven, a tailor shop where you can unwind, savor a refreshing beverage and craft extraordinary custom attire that epitomizes the true essence of your unique personal style.
+                    Enter a refined sanctuary dedicated to the art of semi-precious stones. Experience 
+                    textures, colors, and formations shaped over centuries, thoughtfully curated for modern 
+                    living. From statement surfaces to bespoke creations, we help you design pieces that 
+                    embody sophistication, depth, and your unique vision.
                 </p>
                 
                 <div class="about-links-bottom">

@@ -158,7 +158,7 @@
             <!-- SMALL RIGHT -->
             <div class="small-image sm-img-top zoom-scroll">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/frontmov2.mp4" type="video/mp4">
+                    <source src="videos/MOV1.MOV" type="video/mp4" >
                 </video>
             </div>
 
@@ -190,7 +190,7 @@
             <div class="fit-img-1">
             </div>
 
-            <a href="#" class="category-link text-md">
+            <a href="#" class="category-link text-md shrink-underline">
                 SEMI PRECIOUS STONES
             </a>
 
@@ -206,7 +206,7 @@
             <div class="fit-img-2">
             </div>
 
-            <a href="#" class="category-link text-md">
+            <a href="#" class="category-link text-md shrink-underline">
                 BESPOKE WOMEN'S SUITS
             </a>
 
@@ -221,8 +221,7 @@
 
             <div class="fit-img-3">
             </div>
-
-            <a href="#" class="category-link text-md">
+            <a href="#" class="category-link text-md shrink-underline">
                 BESPOKE COATS
             </a>
 
@@ -238,7 +237,7 @@
             <div class="fit-img-4">
             </div>
 
-            <a href="#" class="category-link text-md">
+            <a href="#" class="category-link text-md shrink-underline">
                 BESPOKE BOW TIES
             </a>
 
@@ -410,7 +409,7 @@
     <!-- BUTTON -->
     <div class="process-button">
 
-        <a href="#">
+        <a href="#" class="shrink-underline">
             BOOK AN APPOINTMENT
         </a>
 
@@ -450,7 +449,7 @@
       </div>
     </div>
     <div class="product-card__info">
-      <p class="product-card__name text-md">
+      <p class="product-card__name text-md shrink-underline">
         Regular Fit Cotton Blend Shirt
     </p>
       <div class="product-card__dots">
@@ -473,7 +472,7 @@
       </div>
     </div>
     <div class="product-card__info">
-      <p class="product-card__name text-md">Suit blazer in stretch wool</p>
+      <p class="product-card__name text-md shrink-underline">Suit blazer in stretch wool</p>
       <div class="product-card__dots">
         <div class="product-card__dot"></div>
         <div class="product-card__dot active"></div>

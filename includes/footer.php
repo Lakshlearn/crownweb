@@ -1,5 +1,23 @@
 <footer class="footer">
 
+    <div class="appointment-section">
+        <div class="appointment-content">
+
+            <div class="dress-icon">
+                <img src="dress-icon.svg" alt="Dress Icon">
+            </div>
+
+            <h2>CLOTHES THAT AFFIRM YOU</h2>
+
+            <a href="#" class="appointment-btn">
+                <span class="shrink-underline">
+                    BOOK AN APPOINTMENT
+                </span>
+            </a>
+
+        </div>
+    </div>
+
     <!-- Newsletter -->
     <div class="newsletter">
 

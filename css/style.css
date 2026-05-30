@@ -1496,7 +1496,15 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("../images/div-bg-1.webp");
+    
+}
+
+.big-img-top {
+    background-image: url("../images/bg-img-1.png");
+}
+
+.big-img-bottom {
+    background-image: url("../images/bg-img-2.png");
 }
 
 /* Responsive sizes for big-image-bottom to match site breakpoints */
@@ -1879,9 +1887,11 @@ body {
 }
 
 
-/* Div Images */
+/* ============================ */
+/*        Shared Styles         */
+/* ============================ */
 
-/* Personal Fit */
+/* Images for Personal Fit section */
 .fit-img-1 {
     width: 450px;
     height: 550px;
@@ -1892,6 +1902,7 @@ body {
     background-repeat: no-repeat;
     background-image: url("../images/catimg1.png");
 }
+
 .fit-img-2 {
     width: 450px;
     height: 550px;
@@ -1902,6 +1913,7 @@ body {
     background-repeat: no-repeat;
     background-image: url("../images/cat-img-3.png");
 }
+
 .fit-img-3 {
     width: 450px;
     height: 650px;
@@ -1912,6 +1924,7 @@ body {
     background-repeat: no-repeat;
     background-image: url("../images/cat-img-8.png");
 }
+
 .fit-img-4 {
     width: 450px;
     height: 550px;
@@ -1923,8 +1936,7 @@ body {
     background-image: url("../images/cat-img-9.png");
 }
 
-
-/* Product Images */
+/* Images */
 .prod-img-1 {
     width: 100%;
     height: 100%;

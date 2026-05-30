@@ -141,7 +141,7 @@
                         OUR STORY
                     </a>
                     <a class="shrink-underline" href="#">
-                        OUR FABRICS
+                        VIEW ALL STONES
                     </a>
                 </div>
             </div>
@@ -152,7 +152,7 @@
         <div class="about-images">
 
             <!-- BIG IMAGE -->
-            <div class="big-image zoom-scroll">
+            <div class="big-image big-img-top zoom-scroll">
             </div>
 
             <!-- SMALL RIGHT -->
@@ -559,7 +559,7 @@
         <div class="about-images">
 
             <!-- BIG IMAGE -->
-            <div class="big-image zoom-scroll">
+            <div class="big-image big-img-bottom zoom-scroll">
             </div>
 
 

@@ -518,7 +518,6 @@
 
             <!-- BIG IMAGE -->
             <div class="big-image-bottom zoom-scroll">
-                <img src="images/about-main.jpg" alt="">
             </div>
 
 

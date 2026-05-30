@@ -8,8 +8,8 @@
 
             <h2>CLOTHES THAT AFFIRM YOU</h2>
 
-            <a href="#" class="appointment-btn">
-                <span class="shrink-underline">
+            <a href="#" class="appointment-btn shrink-underline-btn">
+                <span>
                     BOOK AN APPOINTMENT
                 </span>
             </a>

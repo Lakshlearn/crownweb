@@ -179,7 +179,7 @@ body {
     flex-direction: column;
 }
 
-.footer-contact > p {
+.footer-contact>p {
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -281,9 +281,6 @@ body {
     transition: all 0.3s ease;
     position: relative;
     margin-bottom: 20px;
-}
-
-.appointment-btn span {
     color: #fff;
 }
 
@@ -1509,15 +1506,38 @@ body {
     height: 900px;
     overflow: hidden;
     position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../images/div-bg-1.webp");
 }
 
-.big-image-bottom img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+/* Responsive sizes for big-image-bottom to match site breakpoints */
+@media (max-width: 1400px) {
+    .big-image-bottom {
+        width: 520px;
+        height: 760px;
+    }
 
-    transition: transform 0.2s linear;
-    will-change: transform;
+    .small-image-bottom {
+        width: 240px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 768px) {
+    .big-image-bottom {
+        width: 100%;
+        height: 520px;
+    }
+
+    .small-image-bottom {
+        width: 180px;
+        height: 250px;
+        left: 10px;
+        bottom: -30px;
+        border-radius: 0 0 90px 90px;
+    }
 }
 
 /* SMALL FLOATING IMAGE */
@@ -1748,7 +1768,7 @@ body {
 
 /* Shared Classes */
 
-.shrink-underline{
+.shrink-underline {
     text-decoration: none;
     color: inherit;
 
@@ -1764,6 +1784,30 @@ body {
     }
 
     &:hover::after {
+        transform: scaleX(0.5);
+        transform-origin: center;
+    }
+}
+
+.shrink-underline-btn {
+    span {
+        text-decoration: none;
+        color: inherit;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1px;
+            background: currentColor;
+            transform: scaleX(1);
+            transform-origin: center;
+            transition: transform 0.35s ease;
+        }
+
+    }
+
+    &:hover span::after {
         transform: scaleX(0.5);
         transform-origin: center;
     }

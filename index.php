@@ -590,16 +590,18 @@ $instagramPosts = [
     <div class="ig-container">
 
         <div class="ig-heading">
-            <span class="ig-subtitle">INSTAGRAM</span>
-
-            <h2>
-                JOIN THE ADVENTURE <br>
-                @BESPOKEINNOVE
-            </h2>
-
-            <a href="https://instagram.com/bespokeinnove" target="_blank" class="ig-follow-btn">
-                FOLLOW US
-            </a>
+            <div class="ig-heading-content">
+                <span class="ig-subtitle">INSTAGRAM</span>
+                
+                <h2>
+                    JOIN THE ADVENTURE <br>
+                    @BESPOKEINNOVE
+                </h2>
+                
+                <a href="https://instagram.com/bespokeinnove" target="_blank" class="shrink-underline">
+                    FOLLOW US
+                </a>
+            </div>
         </div>
 
         <div class="ig-grid">

@@ -565,9 +565,6 @@
 
             <!-- SMALL RIGHT -->
             <div class="small-image sm-img-bottom zoom-scroll">
-                <video autoplay muted loop playsinline>
-                    <source src="videos/frontmovie1.MOV" type="video/mp4">
-                </video>
             </div>
 
         </div>

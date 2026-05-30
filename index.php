@@ -345,7 +345,7 @@
         <circle cx="12" cy="7" r="4"/><path d="M5.5 20a6.5 6.5 0 0 1 13 0"/>
       </svg>
     </div>
-    <span class="products-hero__url" style="position:absolute;bottom:14px;left:16px;">https://innovecouture.vamtam.com/shop/sale/</span>
+   
   </div>
  
   <!-- Product card 1 -->

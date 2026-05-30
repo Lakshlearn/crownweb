@@ -158,7 +158,7 @@
             <!-- SMALL RIGHT -->
             <div class="small-image sm-img-top zoom-scroll">
                 <video autoplay muted loop playsinline>
-                    <source src="videos/frontmovie1.MOV" type="video/mp4">
+                    <source src="videos/frontmov2.mp4" type="video/mp4">
                 </video>
             </div>
 

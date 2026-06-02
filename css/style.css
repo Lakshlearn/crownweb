@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+@import "components/header.css";
 
 :root {
     --light-brown: #F4F1EE;
@@ -15,77 +16,6 @@ body {
     background: white;
     overflow-x: hidden;
     color: #111;
-}
-
-/* TRANSPARENT HEADER */
-.header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 30px 60px;
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    background: rgba(255, 255, 255, 0.15);
-    backdrop-filter: blur(8px);
-
-    z-index: 1000;
-}
-
-/* LOGO */
-.logo {
-    font-size: 18px;
-    font-weight: 600;
-    letter-spacing: -1px;
-    color: #000;
-}
-
-/* NAVIGATION */
-.nav {
-    display: flex;
-    gap: 50px;
-}
-
-.nav a {
-    text-decoration: none;
-    color: #000;
-    font-size: 15px;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-.nav a:hover {
-    opacity: 0.6;
-}
-
-/* ICONS */
-.icons {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
-
-.icons a {
-    color: #000;
-    font-size: 18px;
-    text-decoration: none;
-}
-
-/* CART */
-.cart {
-    position: relative;
-}
-
-.cart span {
-    position: absolute;
-    top: -10px;
-    right: -10px;
-
-    font-size: 12px;
-    font-weight: bold;
 }
 
 /* DEMO HERO SECTION */

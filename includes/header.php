@@ -1,6 +1,6 @@
 <header class="header">
-     <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <div class="logo">
         CROWN JEWELS
     </div>
@@ -13,7 +13,7 @@
     </nav>
 
     <div class="icons">
-       <a href="#">
+        <a href="#">
             <i class="bi bi-person"></i>
         </a>
 

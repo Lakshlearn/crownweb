@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <?php include '../includes/header.php'; ?>
+    <?php include __DIR__ . '/../includes/header.php'; ?>
     <main>
 
 
@@ -42,13 +42,6 @@
                     <p>+1 212 532 8222</p>
                     <p>pr@innovecouture.com</p>
                 </div>
-
-                <div class="help-card">
-                    <h3>WHOLESALE INQUIRIES</h3>
-                    <p>+1 212 532 8222</p>
-                    <p>sales@innovecouture.com</p>
-                </div>
-
             </div>
 
         </section>

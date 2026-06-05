@@ -8,7 +8,7 @@
     <title>About Us : Crown Jewels</title>
 </head>
 <body>
-    <?php include '../includes/header.php'; ?> 
+    <?php include __DIR__ . '/../includes/header.php'; ?> 
     <section class="about-section-one">
     
     <div class="about-header">
@@ -55,7 +55,7 @@
 
     </div>
 </section>
-<?php include '../includes/footer.php'; ?>
+<?php include __DIR__ . '/../includes/footer.php'; ?>
 <script src="../js/script.js"></script>
 </body>
 </html>

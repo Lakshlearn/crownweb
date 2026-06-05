@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 @import "../components/header.css";
+@import "../components/footer.css";
 
 /* ==========================================
    ABOUT SECTION ONE
@@ -93,7 +95,6 @@
 /* ==========================================
    Story section
 ========================================== */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 .story-section {
     font-family: 'Montserrat', sans-serif;
     background: #efefef;

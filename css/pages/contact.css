@@ -51,9 +51,9 @@ main {
 
 .help-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 60px;
-    margin-inline: auto;
+    place-items: center;
     padding-bottom: 45px;
     border-top: 1px solid #d9d9d9;
     padding-top: 45px;

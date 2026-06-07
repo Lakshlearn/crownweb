@@ -599,22 +599,6 @@ body {
     }
 }
 
-/* style.css section 4*/
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background: white;
-    overflow-x: hidden;
-    color: #111;
-}
 
 /* =========================
    PROCESS SECTION
@@ -821,7 +805,6 @@ body {
 .product-card {
     display: flex;
     flex-direction: column;
-    border-left: 1px solid var(--border);
     overflow: hidden;
     opacity: 0;
     transform: translateY(20px);
@@ -872,18 +855,15 @@ body {
 
 .product-card__info {
     padding: 20px 24px 32px;
-    border-top: 1px solid var(--border);
 }
 
 .product-card__name {
-    font-family: var(--font-body);
     font-weight: 300;
     letter-spacing: 0.02em;
     margin-bottom: 6px;
 }
 
 .product-card__price {
-    font-family: var(--font-body);
     font-size: 0.8rem;
     font-weight: 400;
 }
@@ -899,7 +879,6 @@ body {
     width: 7px;
     height: 7px;
     border-radius: 50%;
-    background: var(--text);
     opacity: 0.18;
     cursor: pointer;
     transition: opacity 0.2s;
@@ -916,7 +895,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1.4fr 1fr;
     min-height: 60vh;
-    border-top: 1px solid var(--border);
     column-gap: 12px;
 }
 
@@ -979,7 +957,6 @@ body {
 }
 
 .testimonial__quote {
-    font-family: var(--font-body);
     font-size: 0.78rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -988,9 +965,7 @@ body {
 }
 
 .testimonial__author {
-    font-family: var(--font-body);
     font-size: 0.78rem;
-    color: var(--text-muted);
     margin-top: 20px;
 }
 
@@ -1004,9 +979,7 @@ body {
 .testimonial__btn {
     width: 38px;
     height: 38px;
-    border: 1px solid var(--text);
     border-radius: 50%;
-    background: transparent;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -1049,7 +1022,6 @@ body {
 
 /* ── Blog panel ── */
 .blog-panel {
-    background: var(--bg-light);
     padding: 56px 48px 48px;
     display: flex;
     flex-direction: column;
@@ -1060,7 +1032,6 @@ body {
 }
 
 .blog-panel__heading {
-    font-family: var(--font-display);
     font-size: clamp(1.5rem, 2.4vw, 2.1rem);
     font-weight: 400;
     letter-spacing: 0.06em;
@@ -1072,12 +1043,9 @@ body {
 .blog-panel__link {
     display: inline-block;
     width: fit-content;
-    font-family: var(--font-body);
     font-size: 0.7rem;
     letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--text);
-    text-decoration: underline;
     text-underline-offset: 5px;
     margin-top: 40px;
     transition: opacity 0.2s;
@@ -1125,7 +1093,6 @@ body {
 
     .product-card {
         border-left: none;
-        border-top: 1px solid var(--border);
     }
 
     .lower-section {

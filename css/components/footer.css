@@ -64,6 +64,14 @@
 
     padding-bottom: 40px;
     border-bottom: 1px solid #d8d5d2;
+
+    a {
+        transition: opacity 0.3s;
+    }
+
+    a:hover {
+        opacity: 0.6;
+    }
 }
 
 .footer-contact {
@@ -83,7 +91,7 @@
     flex-direction: column;
 }
 
-.footer-contact>p {
+.footer-contact > p {
     margin-bottom: 10px;
     font-size: 18px;
 }
@@ -190,7 +198,7 @@
 }
 
 /* RESPONSIVE */
-@media(max-width:900px) {
+@media (max-width: 900px) {
 
     .newsletter {
         grid-template-columns: 1fr;

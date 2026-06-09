@@ -117,14 +117,20 @@ initTestimonialCarousel();
 const igSection = document.getElementById('igSection');
 const bgCircle = document.querySelector('.ig-bg-circle');
 
-window.addEventListener('scroll', () => {
-
+function updateIgBg() {
     if (!igSection || !bgCircle) return;
 
     const rect = igSection.getBoundingClientRect();
     const windowHeight = window.innerHeight;
 
-    // Detect section visibility
+    // Only animate while section is visible in viewport
+    if (rect.top >= windowHeight || rect.bottom <= 0) {
+        // Reset to default scale when out of view
+        bgCircle.style.transform = `translate(-50%, -50%) scale(1)`;
+        return;
+    }
+
+    // Detect section visibility (0..1)
     const visible = 1 - (rect.top / windowHeight);
 
     // Scale limits
@@ -133,9 +139,14 @@ window.addEventListener('scroll', () => {
     // Clamp values
     scale = Math.max(1, Math.min(scale, 12));
 
-    bgCircle.style.transform =
-        `translate(-50%, -50%) scale(${scale})`;
-});
+    bgCircle.style.transform = `translate(-50%, -50%) scale(${scale})`;
+}
+
+window.addEventListener('scroll', updateIgBg);
+window.addEventListener('resize', updateIgBg);
+document.addEventListener('DOMContentLoaded', updateIgBg);
+// Ensure correct state immediately (in case script runs after DOM is ready)
+updateIgBg();
 
 document.addEventListener('DOMContentLoaded', () => {
 

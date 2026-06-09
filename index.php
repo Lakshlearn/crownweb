@@ -191,7 +191,7 @@
             <!-- CARD 1 -->
             <div class="category-card">
 
-                <div class="fit-img-1">
+                <div class="fit fit-img-1">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -207,7 +207,7 @@
             <!-- CARD 2 -->
             <div class="category-card">
 
-                <div class="fit-img-2">
+                <div class="fit fit-img-2">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -223,7 +223,7 @@
             <!-- CARD 3 -->
             <div class="category-card">
 
-                <div class="fit-img-1">
+                <div class="fit fit-img-1">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -239,7 +239,7 @@
             <!-- CARD 4 -->
             <div class="category-card">
 
-                <div class="fit-img-4">
+                <div class="fit fit-img-4">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -267,7 +267,7 @@
             <!-- CARD 1 -->
             <div class="category-card">
 
-                <div class="fit-img-1">
+                <div class="fit fit-img-5">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -283,7 +283,7 @@
             <!-- CARD 2 -->
             <div class="category-card">
 
-                <div class="fit-img-2">
+                <div class="fit fit-img-6">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -299,7 +299,7 @@
             <!-- CARD 3 -->
             <div class="category-card">
 
-                <div class="fit-img-1">
+                <div class="fit fit-img-7">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">
@@ -315,7 +315,7 @@
             <!-- CARD 4 -->
             <div class="category-card">
 
-                <div class="fit-img-4">
+                <div class="fit fit-img-8">
                 </div>
 
                 <a href="#" class="category-link text-md shrink-underline">

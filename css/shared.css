@@ -1,4 +1,3 @@
-
 .shrink-underline {
     text-decoration: none;
     color: inherit;
@@ -51,8 +50,7 @@
 /*        Shared Styles         */
 /* ============================ */
 
-/* Images for Personal Fit section */
-.fit-img-1 {
+.fit {
     width: 450px;
     height: 550px;
     overflow: hidden;
@@ -60,39 +58,38 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/* Images for Personal Fit section */
+.fit-img-1 {
     background-image: url("../images/catimg1.png");
 }
 
 .fit-img-2 {
-    width: 450px;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url("../images/cnc_carving_panels/23.jpg");
 }
 
 .fit-img-3 {
-    width: 450px;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     background-image: url("../images/cat-img-8.png");
 }
 
 .fit-img-4 {
-    width: 450px;
-    height: 550px;
-    overflow: hidden;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url("../images/inlays/44.jpg");
+}
+
+.fit-img-5 {
+    background-image: url("../images/inlays/44.jpg");
+}
+
+.fit-img-6 {
+    background-image: url("../images/inlays/44.jpg");
+}
+
+.fit-img-7 {
+    background-image: url("../images/inlays/44.jpg");
+}
+
+.fit-img-8 {
     background-image: url("../images/inlays/44.jpg");
 }
 

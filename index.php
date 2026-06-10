@@ -141,10 +141,10 @@
                     </p>
 
                     <div class="about-links">
-                        <a class="shrink-underline" href="#">
+                        <a class="shrink-underline" href="/crownweb/pages/about.php">
                             OUR STORY
                         </a>
-                        <a class="shrink-underline" href="#">
+                        <a class="shrink-underline" href="/crownweb/pages/gallery.php">
                             VIEW ALL STONES
                         </a>
                     </div>
@@ -194,7 +194,7 @@
                 <div class="fit fit-img-1">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/semi-precious-slabs.php" class="category-link text-md shrink-underline">
                     SEMI PRECIOUS STONES
                 </a>
 
@@ -210,7 +210,7 @@
                 <div class="fit fit-img-2">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/cnc-carving-panels.php" class="category-link text-md shrink-underline">
                     CNC Carving Panels
                 </a>
 
@@ -226,7 +226,7 @@
                 <div class="fit fit-img-3">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/waterjet-floorings.php" class="category-link text-md shrink-underline">
                     Waterjet Flooring
                 </a>
 
@@ -242,7 +242,7 @@
                 <div class="fit fit-img-4">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/inlay.php" class="category-link text-md shrink-underline">
                     Inlays
                 </a>
 
@@ -265,7 +265,7 @@
                 <div class="fit fit-img-5">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/italian-glass.php" class="category-link text-md shrink-underline">
                     Italian Glass
                 </a>
 
@@ -281,7 +281,7 @@
                 <div class="fit fit-img-6">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/funriture-in-marble.php" class="category-link text-md shrink-underline">
                     Furniture in Marble
                 </a>
 
@@ -297,7 +297,7 @@
                 <div class="fit fit-img-7">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/articles-in-precious-stone.php" class="category-link text-md shrink-underline">
                     Articles In Precious Stones
                 </a>
 
@@ -313,7 +313,7 @@
                 <div class="fit fit-img-8">
                 </div>
 
-                <a href="#" class="category-link text-md shrink-underline">
+                <a href="pages/categories/metal-with-precious-stone.php" class="category-link text-md shrink-underline">
                     Metal with Precious Stone
                 </a>
 
@@ -365,7 +365,7 @@
         <!-- BUTTON -->
         <div class="process-button">
 
-            <a href="#" class="shrink-underline">
+            <a href="#" onclick="openWaterjetPopup(); return false;" class="hero-btn">
                 BOOK AN APPOINTMENT
             </a>
 

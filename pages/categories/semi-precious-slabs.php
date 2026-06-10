@@ -22,7 +22,7 @@
             </div>
 
             <h1>
-                Semi-Precious Slabs
+                Semi-Precious Stones
             </h1>
 
             <p>

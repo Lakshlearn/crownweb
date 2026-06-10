@@ -6,11 +6,12 @@
     </div>
 
     <nav class="nav">
-        <a href="/crownweb/index.php">H.</a>
-        <a href="/crownweb/pages/about.php">ABOUT US</a>
-        <a href="/crownweb/pages/explore.php">EXPLORE</a>
-        <a href="/crownweb/pages/contact.php">CONTACT</a>
-    </nav>
+    <a href="/crownweb/index.php">H.</a>
+    <a href="/crownweb/pages/about.php">ABOUT US</a>
+    <a href="/crownweb/pages/colorpalette.php">COLOR PALETTE</a>
+    <a href="/crownweb/pages/explore.php">CATEOGRIES</a>    
+    <a href="/crownweb/pages/contact.php">CONTACT</a>
+</nav>
 
     <div class="icons">
         <a href="#">

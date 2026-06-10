@@ -21,11 +21,15 @@
     </div>
 
     <div class="footer-links">
-        <a href="#">About</a>
-        <a href="#">Sustainability</a>
-        <a href="#">Press</a>
-        <a href="#">Contact</a>
-        <a href="#">Delivery and returns</a>
+        <a href="   /crownweb/pages/categories/accessories.php">Accessories</a>
+                <a href="/crownweb/pages/categories/articles-precious-stones.php">Articles in Precious Stones</a>
+                <a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC Carving Panels</a>
+                <a href="/crownweb/pages/categories/furniture-marble.php">Furniture in Marble</a>
+                <a href="/crownweb/pages/categories/inlay.php">Inlays</a>
+                <a href="/crownweb/pages/categories/italian-glass.php">Italian Glass</a>
+                <a href="/crownweb/pages/categories/semi-precious-slabs.php">Semi Precious Slabs</a>
+                <a href="/crownweb/pages/categories/metals-precious-stone.php">Metals With Precious Stone</a>
+                <a href="/crownweb/pages/categories/waterjet-floorings.php">Waterjet Floorings</a>
     </div>
 
 </section>

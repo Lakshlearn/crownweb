@@ -21,13 +21,8 @@
             </div>
 
             <h1>
-                GALLERY
+                Colour Palette
             </h1>
-
-            <p>
-                A curated showcase of precision tailoring, premium fabrics,
-                and timeless craftsmanship.
-            </p>
 
         </div>
 

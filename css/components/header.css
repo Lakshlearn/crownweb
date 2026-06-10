@@ -76,6 +76,7 @@ nav a:hover {
     padding: 16px 24px;
     color: #333;
     font-size: 12px;
+    text-transform: uppercase;
 }
 
 /* Show sub-nav-list when parent OR sub-nav-list is hovered */

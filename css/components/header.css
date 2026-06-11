@@ -55,7 +55,7 @@ nav a:hover {
     top: 100%;
     left: 50%;
     transform: translateX(-50%);
-    width: clamp(200px, 8vw, 250px);
+    width: clamp(188px, 8vw, 250px);
     background: #ffffff;
     margin-top: 10px;
     display: flex;

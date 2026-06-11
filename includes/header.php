@@ -1,5 +1,6 @@
 <header class="header">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <div class="logo">
         CROWN JEWELS
     </div>
@@ -46,19 +47,33 @@
             <i class="bi bi-x"></i>
         </button>
         <ul class="mobile-nav-list">
-            <li><a href="/crownweb/index.php">Home</a></li>
+            <li><a href="/crownweb/index.php">H.</a></li>
             <li><a href="/crownweb/pages/about.php">About Us</a></li>
             <li><a href="/crownweb/pages/colorpalette.php">Color Palette</a></li>
-            <li class="mobile-category-title">Categories</li>
-            <li><a href="/crownweb/pages/categories/accessories.php">Accessories</a></li>
-            <li><a href="/crownweb/pages/categories/articles-in-precious-stone.php">Articles in Precious Stone</a></li>
-            <li><a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC Carving Panels</a></li>
-            <li><a href="/crownweb/pages/categories/furniture-in-marble.php">Furniture in Marble</a></li>
-            <li><a href="/crownweb/pages/categories/inlay.php">Inlay</a></li>
-            <li><a href="/crownweb/pages/categories/italian-glass.php">Italian Glass</a></li>
-            <li><a href="/crownweb/pages/categories/metal-with-precious-stone.php">Metal with Precious Stones</a></li>
-            <li><a href="/crownweb/pages/categories/semi-precious-slabs.php">Semi Precious Stones</a></li>
-            <li><a href="/crownweb/pages/categories/waterjet-floorings.php">Waterjet Floorings</a></li>
+            <li class="has-mob-sub-nav-list"> <a href="#" class="submenu-toggle" aria-expanded="false">Categories <i
+                        class="fa-solid fa-chevron-down"></i></a>
+                <ul class="mob-sub-list">
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/accessories.php">ACCESSORIES</a>
+                    </li>
+                    <li class="mob-sub-list-item"><a
+                            href="/crownweb/pages/categories/articles-in-precious-stone.php">ARTICLES IN PRECIOUS
+                            STONE</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/cnc-carving-panels.php">CNC
+                            CARVING PANELS</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/furniture-in-marble.php">FUNITURE
+                            IN MARBLE</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/inlay.php">INLAY</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/italian-glass.php">ITALIAN
+                            GLASS</a></li>
+                    <li class="mob-sub-list-item"><a
+                            href="/crownweb/pages/categories/metal-with-precious-stone.php">METAL WITH PRECIOUS
+                            STONES</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/semi-precious-slabs.php">SEMI
+                            PRECIOUS STONES</a></li>
+                    <li class="mob-sub-list-item"><a href="/crownweb/pages/categories/waterjet-floorings.php">WATERJET
+                            FLOORINGS</a></li>
+                </ul>
+            </li>
             <li><a href="/crownweb/pages/contact.php">Contact</a></li>
         </ul>
     </div>

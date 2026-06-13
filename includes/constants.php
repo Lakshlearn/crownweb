@@ -1,5 +1,41 @@
 <?php
 
+// Categories Cards
+define('CATEGORIES_CARDS', [
+    [
+        'title' => 'Semi Precious Stones',
+        'link' => 'pages/categories/semi-precious-slabs.php'
+    ],
+    [
+        'title' => 'CNC Carving Panels',
+        'link' => 'pages/categories/cnc-carving-panels.php'
+    ],
+    [
+        'title' => 'Waterjet Flooring',
+        'link' => 'pages/categories/waterjet-floorings.php'
+    ],
+    [
+        'title' => 'Inlays',
+        'link' => 'pages/categories/inlay.php'
+    ],
+    [
+        'title' => 'Italian Glass',
+        'link' => 'pages/categories/italian-glass.php'
+    ],
+    [
+        'title' => 'Furniture in Marble',
+        'link' => 'pages/categories/funriture-in-marble.php'
+    ],
+    [
+        'title' => 'Articles In Precious Stones',
+        'link' => 'pages/categories/articles-in-precious-stone.php'
+    ],
+    [
+        'title' => 'Metal with Precious Stone',
+        'link' => 'pages/categories/metal-with-precious-stone.php'
+    ],
+]);
+
 // Testimonials
 define('TESTIMONIALS', [
     [

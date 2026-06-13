@@ -275,9 +275,24 @@ body {
 .about-container {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
+}
+
+@media (min-width: 768px) {
+    .about-container {
+        gap: 60px;
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-container {
+        flex-direction: row;
+        gap: 80px;
+    }
 }
 
 /* =========================
@@ -285,35 +300,76 @@ body {
 ========================= */
 
 .about-content-top {
-    width: 40%;
-    padding-left: 7vw;
+    width: 100%;
+    padding-inline: 0;
 }
 
+@media (min-width: 1024px) {
+    .about-content-top {
+        padding-left: 7vw;
+    }
+}
+
+@media (min-width: 1200px) {
+    .about-content-top {
+        width: 40%;
+    }
+}
+
+
 .about-content-top h2 {
-    font-size: 38px;
+    font-size: clamp(23px, 2.8vw, 38px);
     line-height: 1.1;
     font-weight: 300;
-    margin-bottom: 40px;
+    margin-bottom: clamp(20px, 4.2vw, 40px);
     letter-spacing: -1px;
 }
 
 .about-content-top p {
     max-width: 500px;
-    font-size: 16px;
+    font-size: clamp(12px, 1.6vw, 16px);
     line-height: 1.8;
     color: #333;
     margin-bottom: 40px;
-    padding-right: 100px;
+    text-align: justify;
+    padding-right: 0;
+}
+
+.about-content-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 0;
+}
+
+@media (min-width: 1200px) {
+    .about-content-text {
+        padding-left: 100px;
+    }
+}
+
+.about-content-text p {
+    margin-bottom: 1em;
 }
 
 .about-links {
     display: flex;
-    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .about-links {
+        gap: 30px;
+        justify-content: flex-start;
+    }
 }
 
 .about-links a {
     text-decoration: none;
     color: #111;
+    font-size: min(14px, 4vw);
 }
 
 /* =========================
@@ -328,25 +384,40 @@ body {
     align-items: flex-end;
 }
 
-/* BIG IMAGE */
+/* SMALL FLOATING IMAGE */
 
-/* .big-image {
-    width: 650px;
-    height: 900px;
+.small-image {
+    display: none;
+    width: 200px;
+    height: 250px;
+    position: absolute;
     overflow: hidden;
-    position: relative;
+    border-radius: 0 0 120px 120px;
+    border: 2px solid #444;
+    background: #fff;
 }
 
-.big-image img {
+@media (min-width: 1200px) {
+    .small-image {
+        display: block;
+    }
+}
+
+.small-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-
     transition: transform 0.2s linear;
     will-change: transform;
-} */
+}
 
-/* SMALL FLOATING IMAGE */
+.small-image video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s linear;
+    will-change: transform;
+}
 
 .sm-img-top {
     left: -120px;
@@ -385,11 +456,6 @@ body {
 }
 
 @media(max-width:992px) {
-
-    .about-container {
-        flex-direction: column;
-        gap: 60px;
-    }
 
     .about-content {
         width: 100%;
@@ -437,11 +503,6 @@ body {
 
         border-radius: 0 0 90px 90px;
     }
-
-    .about-links {
-        gap: 20px;
-        flex-wrap: wrap;
-    }
 }
 
 /* style.css */
@@ -454,7 +515,8 @@ body {
 
 .category-section {
     width: 100%;
-    padding: 20px 10px 60px;
+    padding: 20px 20px 60px;
+    margin-top: 2rem;
 }
 
 /* =========================
@@ -463,7 +525,12 @@ body {
 
 .section-top {
     margin-bottom: 20px;
-    padding-left: 32px;
+}
+
+@media (min-width: 1200px) {
+    .section-top {
+        padding-left: 32px;
+    }
 }
 
 .section-top span {
@@ -480,7 +547,8 @@ body {
 .category-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
+    column-gap: 12px;
+    row-gap: 50px;
     align-items: start;
 }
 
@@ -575,10 +643,6 @@ body {
 
     .category-section {
         padding: 20px 15px 40px;
-    }
-
-    .section-top {
-        padding-left: 0;
     }
 
     .category-grid {
@@ -1114,24 +1178,37 @@ body {
 ========================= */
 
 .about-images {
-    width: 40%;
+    width: 100%;
     position: relative;
     display: flex;
     justify-content: start;
     align-items: flex-end;
-    margin-left: 7vw;
+}
+
+@media (min-width: 1200px) {
+    .about-images {
+        width: 40%;
+        margin-left: 7vw;
+    }
 }
 
 /* BIG IMAGE */
 
 .big-image {
-    width: 550px;
+    width: 100%;
     height: 750px;
     overflow: hidden;
     position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+@media (min-width: 1200px) {
+    .big-image {
+        width: 550px;
+        height: 760px;
+    }
 }
 
 .big-img-top {
@@ -1144,10 +1221,7 @@ body {
 
 /* Responsive sizes for big-image-bottom to match site breakpoints */
 @media (max-width: 1400px) {
-    .big-image {
-        width: 520px;
-        height: 760px;
-    }
+    
 
     .small-image {
         width: 240px;
@@ -1170,34 +1244,6 @@ body {
     }
 }
 
-/* SMALL FLOATING IMAGE */
-
-.small-image {
-    width: 200px;
-    height: 250px;
-    position: absolute;
-    overflow: hidden;
-    border-radius: 0 0 120px 120px;
-    border: 2px solid #444;
-    background: #fff;
-}
-
-.small-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.2s linear;
-    will-change: transform;
-}
-
-.small-image video {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.2s linear;
-    will-change: transform;
-}
-
 .about-content {
     width: 40%;
 }
@@ -1218,16 +1264,6 @@ body {
     margin-bottom: 40px;
 }
 
-.about-content-text {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-left: 100px;
-}
-
-.about-content-text p {
-    margin-bottom: 1em;
-}
 
 .about-links-bottom {
     display: flex;
@@ -1400,28 +1436,6 @@ body {
 
 /* ── Mobile fixes ── */
 @media (max-width: 768px) {
-
-    /* About section */
-    .about-container {
-        flex-direction: column;
-        gap: 40px;
-        padding: 0 20px;
-    }
-
-    .about-content-top,
-    .about-content {
-        width: 100%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    .about-content-top p {
-        padding-right: 0;
-    }
-
-    .about-content-text {
-        padding-left: 0;
-    }
 
     /* About images */
     .about-images {

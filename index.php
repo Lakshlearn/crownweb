@@ -1,6 +1,7 @@
 <?php require_once __DIR__ . '/includes/constants.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -187,148 +188,18 @@
                 <span>PERSONAL FIT FOR ALL</span>
             </div>
 
-
-
-
-
             <!-- CATEGORY GRID -->
             <div class="category-grid">
-
-                <!-- CARD 1 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-1">
+                <?php foreach (CATEGORIES_CARDS as $index => $category): ?>
+                    <div class="category-card">
+                        <div class="fit fit-img-<?php echo $index + 1; ?>">
+                        </div>
+                        <a href="<?php echo $category['link']; ?>" class="category-link text-md shrink-underline">
+                            <?php echo $category['title']; ?>
+                        </a>
                     </div>
-
-                    <a href="pages/categories/semi-precious-slabs.php" class="category-link text-md shrink-underline">
-                        Semi Precious Stones
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 2 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-2">
-                    </div>
-
-                    <a href="pages/categories/cnc-carving-panels.php" class="category-link text-md shrink-underline">
-                        CNC Carving Panels
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 3 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-3">
-                    </div>
-
-                    <a href="pages/categories/waterjet-floorings.php" class="category-link text-md shrink-underline">
-                        Waterjet Flooring
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 4 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-4">
-                    </div>
-
-                    <a href="pages/categories/inlay.php" class="category-link text-md shrink-underline">
-                        Inlays
-                    </a>
-
-                </div>
-
+                <?php endforeach; ?>
             </div>
-
-        </section>
-
-
-        <!-- section 3 part 2  -->
-        <section class="category-section">
-
-            <!-- CATEGORY GRID -->
-            <div class="category-grid">
-
-                <!-- CARD 5 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-5">
-                    </div>
-
-                    <a href="pages/categories/italian-glass.php" class="category-link text-md shrink-underline">
-                        Italian Glass
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 6 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-6">
-                    </div>
-
-                    <a href="pages/categories/funriture-in-marble.php" class="category-link text-md shrink-underline">
-                        Furniture in Marble
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 7 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-7">
-                    </div>
-
-                    <a href="pages/categories/articles-in-precious-stone.php"
-                        class="category-link text-md shrink-underline">
-                        Articles In Precious Stones
-                    </a>
-
-                </div>
-
-
-
-
-
-                <!-- CARD 8 -->
-                <div class="category-card">
-
-                    <div class="fit fit-img-8">
-                    </div>
-
-                    <a href="pages/categories/metal-with-precious-stone.php"
-                        class="category-link text-md shrink-underline">
-                        Metal with Precious Stone
-                    </a>
-
-                </div>
-
-            </div>
-
         </section>
 
         <!-- section 4 -->

@@ -359,7 +359,7 @@ body {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
-    background-image: url("../images/sm-bottom-img.jpeg") !important;
+    background-image: url("../images/sm-bottom-img.webp") !important;
 }
 
 /* =========================
@@ -1135,11 +1135,11 @@ body {
 }
 
 .big-img-top {
-    background-image: url("../images/bg-img-1.png");
+    background-image: url("../images/bg-img-1.webp");
 }
 
 .big-img-bottom {
-    background-image: url("../images/secondsectionimg.jpeg");
+    background-image: url("../images/secondsectionimg.webp");
 }
 
 /* Responsive sizes for big-image-bottom to match site breakpoints */

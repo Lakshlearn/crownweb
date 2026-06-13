@@ -22,7 +22,7 @@
 
         <div class="about-image-wrap">
             <div class="about-image-parallax">
-                <img src="../images/bg-img-2.png" alt="About Image">
+                <img src="../images/bg-img-2.webp" alt="About Image">
             </div>
         </div>
 
@@ -33,7 +33,7 @@
         <div class="story-container">
 
             <div class="story-image story-image-left">
-                <img src="../images/cat-img-9.png" alt="Story Image">
+                <img src="../images/cat-img-9.webp" alt="Story Image">
             </div>
 
             <div class="story-content">
@@ -53,7 +53,7 @@
             </div>
 
             <div class="story-image story-image-right">
-                <img src="../images/prod-2.png" alt="Story Image">
+                <img src="../images/prod-2.webp" alt="Story Image">
             </div>
 
         </div>

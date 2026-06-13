@@ -341,7 +341,7 @@
                 <h2>THE PROCESS</h2>
 
                 <div class="process-icon">
-                    <img src="images/process-icon.png" alt="">
+                    <img src="images/process.png" alt="">
                 </div>
 
             </div>
